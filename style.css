@@ -1,0 +1,69 @@
+.nav-item {
+    text-transform: uppercase;
+}
+.navbar-brand {
+    text-transform: uppercase;
+    margin-left: 40px;
+
+}
+.nav-icon {
+    margin-right: 40px;
+}
+.sec-1 {
+    background-color: rgba(128, 128, 128, 0.3);
+    color: white;
+    text-align: center;
+    height: 520px;
+    width: 100%;
+    position: relative;
+
+}
+
+.sec-1::before {
+    content: "";
+    background-image: url(img-first.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+.font{
+    font-family: Georgia, serif;
+}
+.in{
+    font-family: cursive;
+}
+.lifestyle{
+    margin-top: 130px;
+}
+.continue{
+    width: fit-content;
+}
+
+.right-s {
+    background-color: rgba(128, 128, 128, 0.3);
+    color: white;
+    /* text-align: center; */
+    height: 200px;
+    width: 100%;
+    position: relative;
+
+}
+.right-s::before {
+    content: "";
+    background-image: url(img-right.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
